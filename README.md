@@ -7,14 +7,15 @@
 
 # 📱 Churrascometro.
 > * Esse repositório tem como objetivo principal apresentar meus estudos e aplicar em projetos pessoais em React.
-> * Lista de tarefas feito em React.
+> * Site par calcular a quantidade de carne e bebida para o churrasco feito em React.
   
 
 ## ⚙ Descrição do projeto.
-> * Permite adicionar novas tarefas, marcar como concluidas e excluir a mesma.<br>
-> * Permite filtrar as tarefas com base em seu status (todas, completas ou incompletas).<br>
-> * Permite ordenar as tarefas em ordem alfabética (ascendente ou descendente).<br>
-> * Possui uma barra de pesquisa para pesquisar tarefas com base no texto digitado.
+> * Vai receber as informações via input e fazer o calculo.<br>
+> * Carne - 400gr por pessoa + de 6horas - 650gr<br>
+> * Cerveja - 1200ml por Pessoa + 6 horas - 2000ml<br>
+> * Refrigerante/água - 1000ml por pessoa + 6 horas 1500ml.<br>
+> * Crianças valem pela metade.  
  
 
 ## ☕ Tecnologias Usadas
@@ -24,7 +25,7 @@
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
 
-https://gabrielsousaf.github.io/Todo-List-React/
+https://gabrielsousaf.github.io/Churrascometro-React/
 
 
 
