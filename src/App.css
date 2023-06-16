@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +27,8 @@ body{
 }
 
 h1 {
-  color: black;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
   text-align: center;
   justify-content: center;
 }
@@ -58,13 +61,11 @@ input {
   display: block;
   padding: 15px;
   border-radius: 15px;
-  border: 2px solid #e2e2e2;
+  border: 1px solid #DDD;
 }
 
 input:focus{
-  -webkit-box-shadow:0px 1px 52px 19px rgba(62,66,66,0.5);
-  -moz-box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
-  box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   outline: 0;
 }
 
@@ -75,7 +76,7 @@ input::placeholder{
 button {
   background-color:#fdca49;
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 28px;
   color:#1C1C1C;
   width: 100% ;
   padding: 20px 16px;
@@ -88,15 +89,12 @@ button {
 }
 
 button:hover {
-  -webkit-box-shadow:0px 1px 52px 19px rgba(62,66,66,0.5);
-  -moz-box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
-  box-shadow: 0px 1px 52px 19px rgba(62,66,66,0.5);
   transform: 0.3s;
   margin-top: 2px;
 }
 
 @media (max-width: 800px) {
-  body {
+  .container {
     display: block;
     justify-content: center;
     margin: auto;

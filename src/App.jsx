@@ -1,5 +1,10 @@
 import './App.css'
 import { useState } from 'react';
+
+import Meat from './assets/images/carne.svg';
+import Beer from './assets/images/cerveja.svg';
+import Drink from './assets/images/refri.svg';
+
 import YoungMan from './assets/images/young-man.png';
 import Kid from './assets/images/kid.png';
 import Clock from './assets/images/clock.png'
@@ -26,15 +31,15 @@ export default function App() {
       setResultado(
         <div>
           <div className="result-block">
-            <img src="./images/carne.svg" alt="carne" />
+            <img src={Meat} alt="carne" />
             <p>{qdtTotalCarne / 1000} Kg de Carne</p>
           </div>
           <div className="result-block">
-            <img src="./images/cerveja.svg" alt="cerveja" />
+            <img src={Beer} alt="cerveja" />
             <p>{qdtTotalCerveja / 1000} L de Cerveja</p>
           </div>
           <div className="result-block">
-            <img src="./images/refri.svg" alt="refri" />
+            <img src={Drink} alt="refri" />
             <p>{qdtTotalBebidas / 1000} L de Refri</p>
           </div>
         </div>
