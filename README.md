@@ -7,7 +7,7 @@
 
 # 📱 Churrascometro.
 > * Esse repositório tem como objetivo principal apresentar meus estudos e aplicar em projetos pessoais em React.
-> * Site par calcular a quantidade de carne e bebida para o churrasco feito em React.
+> * Site para calcular a quantidade de carne e bebida para o churrasco feito em React.
   
 
 ## ⚙ Descrição do projeto.
